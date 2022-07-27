@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header pos_stickey">
+        <div class="header_container d-flex justify_content_space_around max_width mx_auto align_items_center">
+            <a href="/" class="link">
+                <div class="logo d-flex align_items_center justify_content_space_between">
+                    <div class="logo_img d-flex justify_content_center align_items_center">
+                        <img src="./images/logo.png" alt="Ninja_Studio_logo" srcset="">
+                    </div>
+                    <div class="logo_text d-flex justify_content_center flex_direction_col">
+                        <span>Ninja</span>
+                        <span>Studio</span>
+                    </div>
+                </div>
+            </a>
+            <nav class="nav d-flex align_items_center justify_content_space_evenly">
+                <span class="favorite">
+                    Favorites
+                </span>
+                <div class="searchbox d-flex align_items_center justify_content_space_around">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="search" name="" placeholder="Search">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+                <div class="bell_icon">
+                    <i class="fa fa-bell fa-inverse pos_rel"> <span class="badge pos_abs"></span></i>
+                </div>
+            </nav>
+            <div class="user">
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="main_container d-flex justify_content_space_around max_width">
+            <article id="home_article">
+                <section id="slider" class="pos_rel">
+                    <input type="radio" name="slider" id="s1" checked>
+                    <input type="radio" name="slider" id="s2">
+                    <input type="radio" name="slider" id="s3">
+                    <input type="radio" name="slider" id="s4">
+                    <input type="radio" name="slider" id="s5">
+
+                    <label for="s1" id="slide1" class="pos_abs d-flex align_items_center justify_content_center"><img
+                            src="./images/carousel/1.jpg" alt=""></label>
+                    <label for="s2" id="slide2" class="pos_abs d-flex align_items_center justify_content_center"><img
+                            src="./images/carousel/2.jpg" alt=""></label>
+                    <label for="s3" id="slide3" class="pos_abs d-flex align_items_center justify_content_center"><img
+                            src="./images/carousel/3.jpg" alt=""></label>
+                    <label for="s4" id="slide4" class="pos_abs d-flex align_items_center justify_content_center"><img
+                            src="./images/carousel/4.jpg" alt=""></label>
+                    <label for="s5" id="slide5" class="pos_abs d-flex align_items_center justify_content_center"><img
+                            src="./images/carousel/5.jpg" alt=""></label>
+                </section>
+
+                <section class="latest_releases d-flex justify_content_center flex_direction_col">
+                    <div class="title">
+                        <h1>Latest Release</h1>
+                    </div>
+                    <div class="latest_release_container d-flex">
+                        <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                            <div class="song_img">
+                                <img src="./images/onism.jpg" alt="">
+                            </div>
+                            <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                            <!-- <div class="extra_info"> -->
+                            <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                            <span class="song_length pos_abs">4:44</span>
+                            <!-- </div> -->
+                        </div>
+                        <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                            <div class="song_img">
+                                <img src="./images/onism.jpg" alt="">
+                            </div>
+                            <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel ">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                            <!-- <div class="extra_info"> -->
+                            <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                            <span class="song_length pos_abs">4:44</span>
+                            <!-- </div> -->
+                        </div>
+                        <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                            <div class="song_img">
+                                <img src="./images/onism.jpg" alt="">
+                            </div>
+                            <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                            <!-- <div class="extra_info"> -->
+                            <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                            <span class="song_length pos_abs">4:44</span>
+                            <!-- </div> -->
+                        </div>
+                        <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                            <div class="song_img">
+                                <img src="./images/onism.jpg" alt="">
+                            </div>
+                            <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                            <!-- <div class="extra_info"> -->
+                            <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                            <span class="song_length pos_abs">4:44</span>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    class="popular_artists d-flex align_items_flex_start justify_content_center flex_direction_col">
+                    <div class="title">
+                        <h1>Popular Artists</h1>
+                    </div>
+                    <div class="popular_artists_container d-flex align_items_center justify_content_flex_start">
+                        <a href="./single_playlist.html" class="link">
+                            <div class="artist_container d-flex align_items_center flex_direction_col">
+                                <div class="artist">
+                                    <img src="./images/artists/ed_sheeran.jpg" alt="artist">
+                                </div>
+                                <span class="artist_name">Ed Sheeran</span>
+                            </div>
+                        </a>
+                        <a href="./single_playlist.html" class="link">
+                            <div class="artist_container d-flex align_items_center flex_direction_col">
+                                <div class="artist">
+                                    <img src="./images/artists/coldPlay.png" alt="artist">
+                                </div>
+                                <span class="artist_name">ColdPlay</span>
+                            </div>
+                        </a>
+                        <a href="./single_playlist.html" class="link">
+                            <div class="artist_container d-flex align_items_center flex_direction_col">
+                                <div class="artist">
+                                    <img src="./images/artists/zayn.jpg" alt="artist">
+                                </div>
+                                <span class="artist_name">Zayn</span>
+                            </div>
+                        </a>
+                        <a href="./single_playlist.html" class="link">
+                            <div class="artist_container d-flex align_items_center flex_direction_col">
+                                <div class="artist">
+                                    <img src="./images/artists/charlie-puth.jpg" alt="artist">
+                                </div>
+                                <span class="artist_name">Charlie Puth</span>
+                            </div>
+                        </a>
+                        <a href="./single_playlist.html" class="link">
+                            <div class="artist_container d-flex align_items_center flex_direction_col">
+                                <div class="artist">
+                                    <img src="./images/artists/imagine_dragon.jpg" alt="artist">
+                                </div>
+                                <span class="artist_name">Imagine Dragon</span>
+                            </div>
+                        </a>
+                        <a href="./single_playlist.html" class="link">
+                            <div class="artist_container d-flex align_items_center flex_direction_col">
+                                <div class="artist">
+                                    <img src="./images/artists/bruno_mars.jpg" alt="artist">
+                                </div>
+                                <span class="artist_name">Bruno Mars</span>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section class="stations d-flex align_items_center justify_content_flex_start pos_rel">
+                    <img src="./images/stations/logo.png" alt="station_logo">
+                    <div class="station_container pos_rel">
+                        <div class="station" id="love"></div>
+                        <span class="overlay_text pos_abs">Love</span>
+                    </div>
+                    <div class="station_container pos_rel">
+                        <div class="station" id="retro"></div>
+                        <span class="overlay_text pos_abs">Retro</span>
+                    </div>
+                    <div class="station_container pos_rel">
+                        <div class="station" id="chill"></div>
+                        <span class="overlay_text pos_abs">Chill</span>
+                    </div>
+                    <div class="station_container pos_rel">
+                        <div class="station" id="workout"></div>
+                        <span class="overlay_text pos_abs">Workout</span>
+                    </div>
+                    <div class="station_container pos_rel">
+                        <div class="station" id="rock"></div>
+                        <span class="overlay_text pos_abs">Rock</span>
+                    </div>
+                    <div class="station_container pos_rel">
+                        <div class="station" id="pop"></div>
+                        <span class="overlay_text pos_abs">Pop</span>
+                    </div>
+                </section>
+                <section class="playlists d-flex align_items_center justify_content_space_between">
+                    <div class="playlist_container pos_rel">
+                        <div class="playlist" id="party"></div>
+                        <span class="playlist_overlay_text pos_abs">Party</span>
+                    </div>
+                    <div class="playlist_container pos_rel">
+                        <div class="playlist" id="electronic"></div>
+                        <span class="playlist_overlay_text pos_abs">Electronic</span>
+                    </div>
+                    <div class="playlist_container pos_rel">
+                        <div class="playlist" id="road_trip"></div>
+                        <span class="playlist_overlay_text pos_abs">Road Trip</span>
+                    </div>
+                </section>
+                <section class="latest_songs d-flex flex_direction_col">
+                    <div class="title">
+                        <h1>Latest English</h1>
+                    </div>
+                    <div class="card_container d-flex align_items_center justify_content_flex_start">
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/1.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/2.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/3.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/4.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/1.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/2.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="latest_songs d-flex flex_direction_col">
+                    <div class="title">
+                        <h1>Latest Hindi</h1>
+                    </div>
+                    <div class="card_container d-flex align_items_center justify_content_flex_start">
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/1.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/3.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/2.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>             
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/4.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/2.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="./images/songs_coverpic/1.jpg" alt="lastest_song">
+                            </div>
+                            <div class="card_details d-flex flex_direction_col justify_content_center">
+                                <span>Onism</span>
+                                <span>AUG 11, 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <aside class="aside d-flex flex_direction_col">
+                <div class="my_playlist_container">
+                    <div class="playlist_heading d-flex align_items_center justify_content_space_between">
+                        <span>My Playlist</span>
+                        <span class="dropdown">Queue <i class="fa-solid fa-angle-down"></i></span>
+                    </div>
+                    <div class="playlist_body d-flex flex_direction_col align_items_center justify_content_flex_start">
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">01</span>
+                            <div class="song_cover_pic box_shadow">
+                                <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Mirage</span>
+                                <span>Else</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">02</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Worry Bout Us</span>
+                                <span>Raise Lowe</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">03</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/3.jpg" alt="song_3">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>New Skin</span>
+                                <span>Flume</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">04</span>
+                            <div class="song_cover_pic box_shadow">
+                                <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Mirage</span>
+                                <span>Else</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">05</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Worry Bout Us</span>
+                                <span>Raise Lowe</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">06</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/3.jpg" alt="song_3">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>New Skin</span>
+                                <span>Flume</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">07</span>
+                            <div class="song_cover_pic box_shadow">
+                                <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Mirage</span>
+                                <span>Else</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">08</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Worry Bout Us</span>
+                                <span>Raise Lowe</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">09</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/3.jpg" alt="song_3">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>New Skin</span>
+                                <span>Flume</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">10</span>
+                            <div class="song_cover_pic box_shadow">
+                                <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Mirage</span>
+                                <span>Else</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">11</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Worry Bout Us</span>
+                                <span>Raise Lowe</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">12</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/3.jpg" alt="song_3">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>New Skin</span>
+                                <span>Flume</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">13</span>
+                            <div class="song_cover_pic box_shadow">
+                                <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Mirage</span>
+                                <span>Else</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">14</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>Worry Bout Us</span>
+                                <span>Raise Lowe</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="song d-flex justify_content_space_between align_items_center">
+                            <span class="song_no">15</span>
+                            <div class="song_cover_pic box_shadow" >
+                                <img src="./images/songs_coverpic/3.jpg" alt="song_3">
+                            </div>
+                            <div class="song_info d-flex flex_direction_col">
+                                <span>New Skin</span>
+                                <span>Flume</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="controls pos_stickey">
+        <div class="controls_container d-flex align_items_center justify_content_space_around">
+            <div class="left">
+                <div class="song d-flex justify_content_space_between align_items_center">
+                    <!-- <span class="song_no">15</span> -->
+                    <div class="song_cover_pic box_shadow">
+                        <img src="./images/songs_coverpic/1.jpg" alt="current_song">
+                    </div>
+                    <div class="song_info  d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-ban"></i>
+                </div>
+            </div>
+            <div class="mid d-flex align_items_center justify_content_space_between flex_direction_col">
+                <div class="navs d-flex align_items_center justify_content_space_between">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-pause"></i> <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="progressbar d-flex align_items_center justify_content_space_between">
+                    <span>1:39</span>
+                    <input class="range" type="range" min="0" max="100" value="10" step="1" />
+                    <span>4:44</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="volume d-flex align_items_center justify_content_space_between">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-computer"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input class="range volume_range" type="range" min="0" max="100" value="10" step="1" />
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header pos_stickey">
+        <div class="header_container d-flex justify_content_space_around max_width mx_auto align_items_center">
+            <a href="/" class="link">
+                <div class="logo d-flex align_items_center justify_content_space_between">
+                    <div class="logo_img d-flex justify_content_center align_items_center">
+                        <img src="./images/logo.png" alt="Ninja_Studio_logo" srcset="">
+                    </div>
+                    <div class="logo_text d-flex justify_content_center flex_direction_col">
+                        <span>Ninja</span>
+                        <span>Studio</span>
+                    </div>
+                </div>
+            </a>
+            <nav class="nav d-flex align_items_center justify_content_space_evenly">
+                <span class="favorite">
+                    Favorites
+                </span>
+                <div class="searchbox d-flex align_items_center justify_content_space_around">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="search" name="" placeholder="Search">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+                <div class="bell_icon">
+                    <i class="fa fa-bell fa-inverse pos_rel"> <span class="badge pos_abs"></span></i>
+                </div>
+            </nav>
+            <div class="user">
+            </div>
+        </div>
+    </header>
+
+    <main id="artist" class="d-flex align_items_center justify_content_center max_width">
+        <article id="single_artist_article">
+            <section id="banner" class="d-flex">
+                <div class="banner_img">
+                    <img src="./images/artists/coldPlay.png" alt="ColdPlay">
+                </div>
+                <div class="banner_body d-flex flex_direction_col justify_content_flex_start pos_rel">
+                    <div class="banner_heading font_weight_bold">ColdPlay</div>
+                    <span class="band_type">British Band</span>
+                    <p class="details">
+                        ColdPlay is a British music band that has enjoyed continuous success since thier inception in
+                        1996 through thier intelligent and soulful songs. The band members are Chirs Martin (lead
+                        Vocals), Jonny Buckland (lead guitar), Guy Berryman (bass guitar) and Will Champion (drums).
+                    </p>
+                    <div class="option_buttons d-flex align_items_center">
+                        <button>Play All</button>
+                        <button>Follow</button>
+                    </div>
+                    <span class="info">247 Tracks | 128 Albums</span>
+                    <span class="followers pos_abs">851 Followers</span>
+                </div>
+            </section>
+
+            <section id="artist_playlist" class="d-flex flex_direction_col">
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">01</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">02</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">03</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">04</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">05</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">06</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">08</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">09</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">10</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">11</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">12</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">13</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">14</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="artist_song d-flex justify_content_space_between align_items_center">
+                    <div class="song_Sl_No">15</div>
+                    <div class="song_cover_img">
+                        <img src="./images/songs_coverpic/1.jpg" alt="song_1">
+                    </div>
+                    <div class="aritist_song_info d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <!-- <span>4:44</span> -->
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-plus"></i>
+                </div>
+            </section>
+        </article>
+        <aside id="single_artist_aside" class="d-flex flex_direction_col justify_content_center">
+            <section id="similar_artists" class="d-flex flex_direction_col justify_content_center">
+                <div class="single_artist_aside_heading d-flex justify_content_space_between align_items_center"><h1>Similar Artistis</h1> <span>View All</span></div>
+                <div class="artist_body d-flex align_items_center flex_direction_col justify_content_center">
+                    <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                        <div class="song_img box_shadow">
+                            <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                        </div>
+                        <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel">
+                            <span>Imagine Dragon</span>
+                            <span>Pop Band</span>
+                        </div>
+                        <!-- <div class="extra_info"> -->
+                        <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                        <span class="song_length pos_abs">4:44</span>
+                        <!-- </div> -->
+                    </div>
+                    <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                        <div class="song_img box_shadow">
+                            <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                        </div>
+                        <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel ">
+                            <span>Imagine Dragon</span>
+                            <span>Pop Band</span>
+                        </div>
+                        <!-- <div class="extra_info"> -->
+                        <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                        <span class="song_length pos_abs">4:44</span>
+                        <!-- </div> -->
+                    </div>
+                    <div class="item pos_rel d-flex align_items_center justify_content_space_between">
+                        <div class="song_img box_shadow">
+                            <img src="./images/songs_coverpic/2.jpg" alt="song_2">
+                        </div>
+                        <div class="song_details d-flex align_items_flex_start flex_direction_col pos_rel">
+                            <span>Imagine Dragon</span>
+                            <span>Pop Band</span>
+                        </div>
+                        <span class="dropdown pos_abs"><i class="fa-solid fa-ellipsis"></i></span>
+                        <span class="song_length pos_abs">4:44</span>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section id="recently_played">
+                <div class="single_artist_aside_heading d-flex justify_content_space_between align_items_center"><h1>Recently Played</h1> <span>View All</span></div>
+                <div class="recently_played_body d-flex flex_direction_col align_items_center justify_content_flex_start">
+                    <div class="recently_played_song d-flex justify_content_space_between align_items_center">
+                        <span class="recently_played_song_no">01</span>
+                        <div class="recently_played_song_cover_pic box_shadow">
+                            <img src="./images/songs_coverpic/1.jpg" alt="img_1">
+                        </div>
+                        <div class="recently_played_song_info d-flex flex_direction_col">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="recently_played_song d-flex justify_content_space_between align_items_center">
+                        <span class="recently_played_song_no">02</span>
+                        <div class="recently_played_song_cover_pic box_shadow">
+                            <img src="./images/songs_coverpic/2.jpg" alt="img_2">
+                        </div>
+                        <div class="recently_played_song_info d-flex flex_direction_col">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="recently_played_song d-flex justify_content_space_between align_items_center">
+                        <span class="recently_played_song_no">03</span>
+                        <div class="recently_played_song_cover_pic box_shadow">
+                            <img src="./images/songs_coverpic/3.jpg" alt="img_3">
+                        </div>
+                        <div class="recently_played_song_info d-flex flex_direction_col">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="recently_played_song d-flex justify_content_space_between align_items_center">
+                        <span class="recently_played_song_no">04</span>
+                        <div class="recently_played_song_cover_pic box_shadow">
+                            <img src="./images/songs_coverpic/4.jpg" alt="img_4">
+                        </div>
+                        <div class="recently_played_song_info d-flex flex_direction_col">
+                            <span>Mirage</span>
+                            <span>Else</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="controls pos_stickey">
+        <div class="controls_container d-flex align_items_center justify_content_space_around">
+            <div class="left">
+                <div class="song d-flex justify_content_space_between align_items_center">
+                    <!-- <span class="song_no">15</span> -->
+                    <div class="song_cover_pic box_shadow">
+                        <img src="./images/songs_coverpic/1.jpg" alt="current_song">
+                    </div>
+                    <div class="song_info  d-flex flex_direction_col">
+                        <span>Mirage</span>
+                        <span>Else</span>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-ban"></i>
+                </div>
+            </div>
+            <div class="mid d-flex align_items_center justify_content_space_between flex_direction_col">
+                <div class="navs d-flex align_items_center justify_content_space_between">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-pause"></i> <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="progressbar d-flex align_items_center justify_content_space_between">
+                    <span>1:39</span>
+                    <input class="range" type="range" min="0" max="100" value="10" step="1" />
+                    <span>4:44</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="volume d-flex align_items_center justify_content_space_between">
+                    <i class="fa-solid fa-list"></i>
+                    <i class="fa-solid fa-computer"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input class="range volume_range" type="range" min="0" max="100" value="10" step="1" />
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
